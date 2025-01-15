@@ -6,7 +6,7 @@ authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
 
 packages = [
-    { include = "actions.excel", from = "actions/excel" }
+    { include = ".", from = "actions/excel" }
 ]
 
 [tool.poetry.dependencies]
