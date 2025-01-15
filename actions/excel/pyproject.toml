@@ -10,8 +10,8 @@ python = "^3.9"
 
 [tool.poetry.packages]
 # Define the package structure
-include = [
-    { include = "sema4ai/gallery/actions/excel", from = "actions/excel" }
+packages = [
+    { include = "sema4ai.gallery.actions.excel", from = "actions/excel" }
 ]
 
 [build-system]
