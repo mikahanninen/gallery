@@ -15,7 +15,7 @@ from sema4ai.actions import ActionError, Response, action
 from openpyxl import load_workbook
 from datetime import datetime
 import openpyxl.utils
-from actions.excel.models import (
+from sema4ai_actions_excel.models import (
     Row,
     Schema,
     Sheet,
